@@ -15,48 +15,66 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="_tmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\aes.c">
+    <ClCompile Include="PatchSolution3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\aes_constant.c">
+    <ClCompile Include="PatchSolution0.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\blowfish.c">
+    <ClCompile Include="PatchSolution2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\sha1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="EncryptPublicKey.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution0.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="common.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution1.cpp">
+    <ClCompile Include="PatchSolution1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NavicatCrypto\aes.h">
+    <ClInclude Include="RSACipher.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NavicatCrypto\blowfish.h">
+    <ClInclude Include="NavicatCrypto.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NavicatCrypto\NavicatCrypto.hpp">
+    <ClInclude Include="FileMapper.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NavicatCrypto\sha1.h">
+    <ClInclude Include="PatchSolution.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="def.hpp">
+    <ClInclude Include="ResourceGuard.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceGuardCapstone.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceGuardOpenssl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceGuardWin32.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionOpenssl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionSystem.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionCapstone.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageInterpreter.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
